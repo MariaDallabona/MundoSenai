@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://img.freepik.com/fotos-premium/bandeiras-coloridas-do-mundo-fundo-de-muitas-bandeiras-do-mundo_795422-7128.jpg');
+    background-size: 1500px;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9); 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    width: 500px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label, select {
+    font-size: 18px;
+}
+
+#result {
+    font-size: 20px;
+    margin-top: 20px;
+}

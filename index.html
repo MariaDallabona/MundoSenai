@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moedas por País</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Descubra a Moeda de um País</h1>
+        <div class="form-group">
+            <label for="country">Selecione um país:</label>
+            <select id="country" onchange="showCurrency()">
+                <option value="">Selecione...</option>
+                <!-- Opções de países serão adicionadas pelo JavaScript -->
+            </select>
+        </div>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
